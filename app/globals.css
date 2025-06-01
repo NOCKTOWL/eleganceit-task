@@ -36,6 +36,6 @@ select {
   color: var(--background);
   font-size: 1.2rem;
   border: 1px solid gray;
-  padding: 0.6rem 1rem;
+  padding: 1rem;
   border-radius: 0.6rem;
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { FaRegQuestionCircle } from "react-icons/fa";
 
@@ -66,9 +66,8 @@ export default function FormComponent() {
                     <select
                         className="custom-input col-span-2"
                         defaultValue=""
-                        onChange={(e) => setCountry(e.target.value)}
                     >
-                        <option value="" disabled>State/Province</option>
+                        <option value="" disabled>State/Territory</option>
                         <option value="North Holland">North Holland</option>
                         <option value="New South Wales">New South Wales</option>
                     </select>
